@@ -1,9 +1,15 @@
-body {
-  padding-bottom: 10rem;
+html, body {
+    height: 100%;
+}
+
+html {
+    background: url(../images/background-image.jpg) center / cover;
+    display: table;
+    margin: auto;
 }
 
 header {
-  background: url(../images/background-image.jpg) center / cover;
+
   justify-content: center;
   text-align: center;
 }
@@ -18,6 +24,7 @@ button {
   background-color: hsla(328, 100%, 23%, 1);
   font-weight: bold;
 }
+
 
 @media screen and (max-width: 1024px) {
   header.mdl-layout__header {
