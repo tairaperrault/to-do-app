@@ -1,0 +1,26 @@
+body {
+  padding-bottom: 10rem;
+}
+
+header {
+  background: url(../images/background-image.jpg) center / cover;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: hsla(328, 100%, 23%, 1);
+  font-weight: bold;
+}
+
+button {
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(328, 100%, 23%, 1);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}

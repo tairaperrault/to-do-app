@@ -2,6 +2,7 @@ function onReady() {
   const addToDoForm = document.getElementById('addToDoForm');
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
+  const deletetoDoList = document.getElementById('deletetoDoList');
 
   addToDoForm.addEventListener('submit', event => {
     event.preventDefault();
@@ -29,6 +30,8 @@ function onReady() {
 
     // empty the input
     newToDoText.value = '';
+
+    deletetoDoList.removeChild('input');
 
   });
 }
